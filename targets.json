@@ -486,6 +486,15 @@
                 "firmware": "Unified_ESP32_2400_TX",
                 "prior_target_name": "DIY_BLE_JOYSTICK"
             },
+            "swoop-esp32": {
+                "product_name": "Swoop TX ESP32",
+                "layout_file": "DIY S3_WROOM_1_N16R2 2400.json",
+                "lua_name": "Gemini S3 2G4",
+                "upload_methods": ["uart", "wifi", "etx"],
+                "min_version": "3.4.0",
+                "platform": "esp32-s3",
+                "firmware": "Unified_ESP32S3_2400_TX"
+            },
             "true_diversity_pwm16_s3": {
                 "product_name": "DIY ESP32-S3 DevKit Gemini 2.4Ghz TX ",
                 "lua_name": "Gemini S3 2G4",
